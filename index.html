@@ -13,9 +13,9 @@
 <body>
   <main class="app">
     <aside>
-      <div class="brand"><div><h1>保险风险减量平台</h1><p>风光氢储标的 · 遥感底图 · 风险图层 · 预警推送</p></div><div class="live"><i></i>运行中</div></div>
+      <div class="brand"><div><h1>风险动态概览</h1><p>风光氢储标的 · 遥感底图 · 风险图层 · 预警推送</p></div><div class="live"><i></i>运行中</div></div>
       <section class="panel"><h2>全域风险概览</h2><div class="body metrics"><button class="metric" data-detail="asset"><label>风光氢储标的</label><strong>128</strong><small>风电 / 光伏 / 制氢 / 储能</small></button><button class="metric" data-detail="coverage"><label>风险覆盖率</label><strong id="riskRate">37%</strong><small>未来 6 小时动态评估</small></button><button class="metric" data-detail="warning"><label>高风险标的</label><strong id="highRiskCount">6</strong><small>触发黄色及以上预警</small></button><button class="metric" data-detail="push"><label>推送状态</label><strong>12</strong><small>已通知客户负责人</small></button></div></section>
-      <section class="panel"><h2>可视化模式</h2><div class="body seg"><button class="active" id="mode2d">二维遥感</button><button id="mode3d">三维倾斜</button></div></section>
+      <section class="panel"><h2>可视化模式</h2><div class="body seg"><button class="active" id="mode2d">二维视角</button><button id="mode3d">三维倾斜</button></div></section>
       <section class="panel"><h2>图层资源目录</h2><div class="body">
         <label class="layer-row"><input type="checkbox" data-layer="asset" checked><span><b>标的信息</b><span>风电场、光伏电站、制氢站、储能站边界与属性</span></span><div class="layer-actions"><button class="mini" data-table="asset" type="button">属性表</button><button class="mini" data-edit="asset" type="button">编辑</button><i class="badge low">基础</i></div></label>
         <label class="layer-row"><input type="checkbox" data-layer="staticRisk" checked><span><b>静态风险信息</b><span>洪涝易发区、地震易发区、地质灾害敏感区</span></span><div class="layer-actions"><button class="mini" data-table="staticRisk" type="button">属性表</button><button class="mini" data-edit="staticRisk" type="button">编辑</button><i class="badge violet">静态</i></div></label>
